@@ -1,0 +1,84 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: url("/public/background.jpg") no-repeat;
+}
+
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input {
+    width: 70vw;
+}
+
+.search-container {
+    margin: 1rem auto;
+    width: 60vw;
+}
+
+.book-container {
+    position: relative;
+    width: 128px;
+    height: 198px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.book-container:hover {
+    transform: scale(1.1);
+}
+
+#hover-content {
+    display: none;
+    position: absolute;
+    top: 0;
+    background-color: rgba(179, 216, 218, 0.5);
+    height: 198px;
+}
+
+#hover-content:hover ~ h5{
+    display: none;
+}
+
+#hover-content:hover {
+    display: block;
+}
+
+img:hover ~ #hover-content {
+    display: block;
+}
+h5:hover ~ #hover-content {
+    display: block;
+}
+
+.book-container>h5 {
+    position: absolute;
+    bottom: 0px;
+    padding: .25rem .8rem;
+    text-align: center;
+    width: 102px;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.book-container h6 {
+    padding: .25rem .8rem;
+    text-align: center;
+    width: 102px;
+    margin: 0;
+    color: white;
+}
+
+h6:first-child {
+    padding-top: 20px;
+}
+
+h6:nth-child(2) {
+    font-size: 20px;
+}

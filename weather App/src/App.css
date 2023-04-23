@@ -1,0 +1,46 @@
+
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+.Ap{
+  width: 100vw;
+  height: 100vh;
+  background-color: pink;
+  margin: 0px  auto;
+}
+.kk{
+  width: 244px;
+  margin:10px auto ;
+  margin-bottom: 20px;
+  color: blue;
+}
+.kkk{
+  width:400px ;
+  margin:10px auto ;
+}
+.kl {
+  width: 378px;
+  padding: 5px;
+ 
+  height: 37px;
+  margin: 10px auto;
+
+  text-align: center;
+  font-size: 1.5rem;
+}
+#wr{
+  color:white;
+  background-color: red;
+  font-size: 2rem;
+  text-align: center;
+}
+#card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 239px;
+}

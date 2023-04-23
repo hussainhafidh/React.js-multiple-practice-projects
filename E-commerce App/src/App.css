@@ -1,0 +1,24 @@
+.data-container{
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+    padding: 50px;
+}
+.description {
+  display: none;
+  position: relative;
+  z-index: 5;
+  background-color: rgb(102, 159, 159);
+}
+.display-image:hover .description{
+  height: auto;
+  width: 250px;
+  box-sizing: border-box;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  z-index: 100;
+}
+.display-image:hover .divimg{
+    display: none;
+}

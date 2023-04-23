@@ -1,0 +1,44 @@
+.movie_main_cont{
+    background-color: rgba(0, 0, 0, 0.363);
+    height: 100%;
+}
+img:hover{
+    width: 1%;
+}
+.movie_header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: #fff;
+}
+.movie_result{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    flex-direction: column;
+}
+.addtofav{
+    
+    display: none;
+}
+.top_10_movies{
+    display: flex;
+    flex-direction: row;
+}
+.movie_box{
+    width: 20%;
+    height: 30%;
+    margin: 1%;
+}
+.movie_box:hover{
+    width: 21%;
+    height: 31%;
+}
+.movie_box img{
+    width: 99%;
+    
+}
